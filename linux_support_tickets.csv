@@ -1,0 +1,21 @@
+Ticket ID,Issue Description,Resolution Details
+TKT1000,Disk space running low on / partition,Cleared unnecessary files and extended / partition.
+TKT1001,Unable to connect to network after reboot,Restarted network services and checked configurations.
+TKT1002,High CPU usage by process,"Identified misbehaving process, adjusted limits, and restarted."
+TKT1003,Permissions issue with /etc/shadow,Corrected file permissions for security.
+TKT1004,Kernel panic on boot,Rebuilt the initramfs and updated kernel version.
+TKT1005,Slow file transfer between servers,Optimized network settings and enabled jumbo frames.
+TKT1006,NFS mount point not accessible,Re-mounted NFS with correct options.
+TKT1007,SSH connection timeout,Adjusted SSH config and increased timeout duration.
+TKT1008,Disk I/O errors on /dev/sda,Replaced faulty disk and restored from backup.
+TKT1009,Firewall blocking HTTP traffic,Modified iptables rules to allow HTTP traffic.
+TKT1010,Swap memory usage is high,Increased swap size and monitored usage patterns.
+TKT1011,File system corruption on /home partition,Ran fsck to repair the corrupted file system.
+TKT1012,LDAP authentication failure,Updated LDAP configurations and restarted services.
+TKT1013,Failed to start Apache service,Fixed configuration error in Apache and restarted the service.
+TKT1014,DNS resolution failure,Updated DNS settings and checked /etc/resolv.conf.
+TKT1015,Cron jobs not running as scheduled,Reviewed cron job permissions and corrected scheduling errors.
+TKT1016,Unable to install packages via apt,Fixed broken package dependencies and re-installed.
+TKT1017,Too many open files error,Increased file descriptor limits in system configurations.
+TKT1018,Docker containers unable to start,Checked Docker logs and restarted containers after fixing issue.
+TKT1019,System clock out of sync with NTP,Synced system time with NTP server and updated settings.

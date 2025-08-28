@@ -1,0 +1,121 @@
+Windows System Performance Diagnostics
+========================================
+Report Generated: 2024-09-18 19:35:05.979890
+
+CPU Utilization:
+LoadPercentage  
+6               
+
+!! Error: High CPU utilization detected for process "svchost.exe", causing possible system slowdowns.
+
+Memory Usage:
+
+FreePhysicalMemory=6331572
+TotalVisibleMemorySize=16555320
+
+!! Warning: Memory usage is nearing critical levels. Only 15% free memory available.
+
+
+Disk Performance:
+Caption  FreeSpace     Size          
+C:       307593723904  510770802688  
+G:       292214034432  510770802688  
+
+Status  
+OK       
+
+!! Error: Disk G: is reporting potential bad sectors. Immediate disk health check is recommended.
+
+
+Network Performance:
+Interface Statistics
+
+                           Received            Sent
+Bytes                      26948972       396291390
+Unicast packets             5352090         2500236
+Non-unicast packets            5508            4896
+Discards                          0               0
+Errors                            0              24
+Unknown protocols                 0
+
+!! Error: Detected 24 packet send errors. Possible network instability or driver issue.
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : Manas-Teks
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Unknown adapter Local Area Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : ExpressVPN TUN Driver
+   Physical Address. . . . . . . . . : 
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+Ethernet adapter Ethernet 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : ExpressVPN TAP Adapter
+   Physical Address. . . . . . . . . : 00-FF-ED-DF-3A-CE
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 3:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #3
+   Physical Address. . . . . . . . . : AC-74-B1-61-55-22
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 4:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #4
+   Physical Address. . . . . . . . . : AE-74-B1-61-55-21
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Intel(R) Wi-Fi 6 AX201 160MHz
+   Physical Address. . . . . . . . . : AC-74-B1-61-55-21
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::d6c3:3832:bad8:b622%19(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.1.13(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : 17 September 2024 10:27:27
+   Lease Expires . . . . . . . . . . : 19 September 2024 19:28:15
+   Default Gateway . . . . . . . . . : 192.168.1.1
+   DHCP Server . . . . . . . . . . . : 192.168.1.1
+   DHCPv6 IAID . . . . . . . . . . . : 162297009
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-2B-93-B9-72-AC-74-B1-61-55-21
+   DNS Servers . . . . . . . . . . . : fe80::1%19
+                                       192.168.1.1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Bluetooth Device (Personal Area Network)
+   Physical Address. . . . . . . . . : AC-74-B1-61-55-25
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+!! Error: Wi-Fi Adapter shows intermittent disconnections. Reconnect attempts detected in the past 48 hours.
+
+Startup and Boot Performance:
+  Last Boot Time: 
+
+!! Warning: System boot time exceeds expected threshold by 35 seconds. Boot diagnostics required.
